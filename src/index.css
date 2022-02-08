@@ -1,14 +1,28 @@
+@font-face {
+  font-family: 'Patrick Hand';
+  src: url('Assets/font/PatrickHand-Regular.eot');
+  src: url('Assets/font/PatrickHand-Regular.eot?#iefix') format('embedded-opentype'),
+      url('Assets/font/PatrickHand-Regular.woff2') format('woff2'),
+      url('Assets/font/PatrickHand-Regular.woff') format('woff'),
+      url('Assets/font/PatrickHand-Regular.ttf') format('truetype'),
+      url('Assets/font/PatrickHand-Regular.svg#PatrickHand-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Patrick Hand', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-}
+  font-size: 12px;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
