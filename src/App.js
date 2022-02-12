@@ -7,15 +7,14 @@ import HomePage from './HomePage/HomePage';
 import {
   BrowserRouter as Router,
   Switch,
-  Route, Link
+  Route 
 } from "react-router-dom";
 
 function App() {  
   return (
     <>
      
-      <Router> 
-        <Link to='/ledo448'>Le Do</Link> 
+      <Router>  
         <Switch>
           <Route path='/ledo448'>
             <Ledo />
