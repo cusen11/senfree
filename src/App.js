@@ -7,7 +7,7 @@ import HomePage from './HomePage/HomePage';
 import {
   BrowserRouter as Router,
   Switch,
-  Route, Link
+  Route
 } from "react-router-dom";
 
 function App() {  
